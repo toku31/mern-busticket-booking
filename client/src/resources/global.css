@@ -1,0 +1,141 @@
+/* heights and widths */
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+/* inputs */
+input {
+  height: 40px;
+  border: 2px solid gray;
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* card */
+.card {
+  border: 2px solid gray;
+  box-shadow: 0 0 1px rgb(183, 182, 182);
+  border-radius: 0;
+}
+
+/* text size */
+.text-2xl {
+  font-size: 30px;
+}
+
+.text-xl {
+  font-size: 25px;
+}
+
+.text-lg {
+  font-size: 20px;
+}
+
+.text-md {
+  font-size: 18px;
+}
+
+.secondary-text {
+  color: var(--secondary)
+}
+
+.primary-text {
+  color: var(--primary)
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* buttons */
+.primary-btn {
+  background-color: var(--primary);
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  cursor: not-allowed;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.outlined{
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-btn {
+  background-color: var(--secondary);
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.disabled-btn {
+  background-color: gray;
+  color: white;
+  border: 0;
+  cursor: not-allowed;
+  /* pointer-events: none; */
+}
+
+/* anchor */
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+i{
+  cursor: pointer;
+  font-size: 25px;
+}
+h1, p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Spinner / Loader */
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.507);
+  z-index: 1000
+}
+.spinner-border {
+  color: white;
+  height: 80px;
+  width: 80px;
+}
+
+/* モーダルの幅を広くする */
+.modal-dialog-fluid {
+  max-width: inherit;
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  /* margin-left: 300px; */
+}
+
+.row > * {
+  padding-right: 0;
+}
+
+table{
+  /* margin-left: -5px; */
+  border: 1px solid rgb(234, 227, 227);
+}

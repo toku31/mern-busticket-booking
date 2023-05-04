@@ -1,0 +1,74 @@
+.layout-parent{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 19px;
+  height: 100vh;
+  gap:20px;
+}
+
+.body {
+  width: 100%;;
+}
+
+.header{
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.479);
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  /* width: 300px; */
+  background-color: var(--secondary);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 10px 20px;
+}
+.logo {
+  color: white;
+  font-size: 20px;
+}
+.role {
+  color: white;
+  font-size: 16px;
+}
+.menu {
+  margin-top: 150px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+  gap: 20px;
+}
+.active-menu-item {
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+.menu-item i {
+  font-size: 18px;
+  margin-right: 5px;
+  color: white;
+}
+
+.menu-item span {
+  font-size: 18px;
+  color:  white;
+  width: 110px;
+}
+
+.content {
+  padding: 10px 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 85vh;
+}
